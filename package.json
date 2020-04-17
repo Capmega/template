@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:back": "cross-env NODE_ENV=production webpack --progress --hide-modules --config resources/admin/webpack.config.js",
+        "watch:back": "webpack --watch --config resources/admin/webpack.config.js",
+        "build:front": "cross-env NODE_ENV=production webpack --progress --hide-modules --config resources/front/webpack.config.js",
+        "watch:front": "webpack --watch --config resources/front/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19.1",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "bootstrap": "^4.4.1",
+        "cross-env": "^5.1.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.24.5",
+        "sass-loader": "7.*",
+        "sweetalert2": "^9.6.0",
+        "v-mask": "^2.0.1",
+        "vue": "^2.6.11",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {}
+}
