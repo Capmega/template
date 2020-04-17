@@ -70,14 +70,14 @@
         },
         {
             "type": "path",
-            "url": "../../sdk/base",
+            "url": "../../capmega/base",
             "options": {
                 "symlink": true
             }
         },
         {
             "type": "path",
-            "url": "../../sdk/blog",
+            "url": "../../capmega/blog",
             "options": {
                 "symlink": true
             }
